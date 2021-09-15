@@ -20,6 +20,7 @@ fi
 
 # add a function path
 fpath=($ZSH/functions $ZSH/completions $fpath)
+# fpath=$(brew --prefix)/share/zsh/site-functions:$fpath
 
 # Load all stock functions (from $fpath files) called below.
 autoload -U compaudit compinit
