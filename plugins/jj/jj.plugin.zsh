@@ -36,6 +36,7 @@ function jj_prompt_template() {
 # Aliases (sorted alphabetically)
 alias jja='jj abandon'
 alias jjb='jj bookmark'
+alias jjba='jj bookmark advance'
 alias jjbc='jj bookmark create'
 alias jjbd='jj bookmark delete'
 alias jjbf='jj bookmark forget'
@@ -69,3 +70,6 @@ alias jjrt='cd "$(jj root || echo .)"'
 alias jjsp='jj split'
 alias jjsq='jj squash'
 alias jjst='jj status'
+alias jjwa='jj workspace add'
+alias jjwf='jj workspace forget'
+
